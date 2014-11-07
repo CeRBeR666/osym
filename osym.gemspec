@@ -12,9 +12,3 @@ Gem::Specification.new do |s|
   s.licenses    = ["MIT"]
   s.add_dependency "savon", "~> 2.7.2"
 end
-
-# gem build osym.gemspec
-# sudo gem install ./osym-0.1.5.gem 
-# gem push osym-0.1.5.gem 
-# git tag -a v0.1.5 -m "foo"
-# git push --tags
